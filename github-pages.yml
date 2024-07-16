@@ -1,6 +1,1 @@
-defaults:
-  - scope:
-      path: ''
-      type: pages
-    values:
-      permalink: /:title
+permalink: /:title
