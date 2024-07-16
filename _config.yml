@@ -1,1 +1,3 @@
-permalink: /:title/
+redirects:
+  - from: /*.html
+    to: /:s
