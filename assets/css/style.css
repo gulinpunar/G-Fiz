@@ -1912,8 +1912,29 @@ hr {
   font-weight: 300;
   text-transform: capitalize;
 }
+/* galery start*/
+.galery-top {
+  margin-top: -100px;
+}
+.galery-title {
+  font-size: 50px;
+  display: block;
+  color: #0d210b;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-align: center;
+}
+.service-area .single-cat .cat-icon .galery-photo {
+  height: 600px;
+  object-fit: cover;
+}
+
+/* galery end*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-tittle h2 {
+    font-size: 39px;
+  }
+  .galery-title {
     font-size: 39px;
   }
 }
@@ -1921,14 +1942,23 @@ hr {
   .section-tittle h2 {
     font-size: 50px;
   }
+  .galery-title {
+    font-size: 50px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-tittle h2 {
     font-size: 40px;
   }
+  .galery-title {
+    font-size: 40px;
+  }
 }
 @media (max-width: 575px) {
   .section-tittle h2 {
+    font-size: 28px;
+  }
+  .galery-title {
     font-size: 28px;
   }
 }
@@ -3463,6 +3493,10 @@ strong {
   background: #5aac4e;
 }
 
+.footer-bottom-area .footer-copy-right p {
+  font-size: 14px;
+}
+
 .footer-bottom-area .footer-copy-right p a {
   color: #000000;
 }
@@ -3584,6 +3618,7 @@ strong {
 .latest-blog-area .area-heading {
   margin-bottom: 70px;
 }
+
 .blog_area a {
   color: "Poppins", sans-serif !important;
   text-decoration: none;
