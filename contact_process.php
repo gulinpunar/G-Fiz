@@ -33,10 +33,11 @@
 
     $send = mail($to, $subject, $body, $headers);
 
-	if ($send) {
+    if ($send) {
         echo "Mail sent successfully.";
     } else {
         echo "Error in sending mail.";
     }
 
 ?>
+
