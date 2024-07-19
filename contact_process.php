@@ -1,5 +1,6 @@
 <?php
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "barlak242@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
@@ -38,6 +39,11 @@
     } else {
         echo "Error in sending mail.";
     }
+} else {
+    // Respond with a 405 Method Not Allowed
+    header("HTTP/1.1 405 Method Not Allowed");
+    exit;
+}
 
 ?>
 

@@ -54,7 +54,7 @@ $(document).ready(function () {
                 $(".modal").modal("hide");
                 $("#success").modal("show");
               });
-              alert("form gönserildi");
+              alert("Form gönderildi");
             },
             error: function () {
               $("#contactForm").fadeTo("slow", 1, function () {
@@ -62,7 +62,7 @@ $(document).ready(function () {
                 $(".modal").modal("hide");
                 $("#error").modal("show");
               });
-              alert("bir hata var");
+              alert("Şuanda bir problem yaşıyoruz");
             },
           });
         },
